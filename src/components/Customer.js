@@ -9,7 +9,7 @@ const testimonials = [
 
 const Customer = () => {
     return (
-        <div className="customer-section">
+        <div className="customer-section" id="comments">
             <h2>What Customers Say About Us</h2>
             <div className="customer-cards">
                 {testimonials.map((t, index) => (
